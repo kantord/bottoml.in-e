@@ -1,0 +1,29 @@
+{
+  "name": "bottoml.in-e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kantord/bottoml.in-e.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kantord/bottoml.in-e/issues"
+  },
+  "homepage": "https://github.com/kantord/bottoml.in-e#readme",
+  "dependencies": {
+    "dashboard": "github:kantord/dashboard"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.10.0"
+  }
+}
