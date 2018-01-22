@@ -1,0 +1,89 @@
+/* === Libre Baskerville - regular */
+@font-face {
+	font-family: 'Libre Baskerville';
+	font-style: normal;
+	font-weight: 400;
+	src: url("./font/LibreBaskerville-Regular.eot");
+	src: local("Libre Baskerville"),
+		local("LibreBaskerville-Regular"),
+		url("./font/LibreBaskerville-Regular.eot") format("embedded-opentype"),
+		url("./font/LibreBaskerville-Regular.woff2") format("woff2"),
+		url("./font/LibreBaskerville-Regular.woff") format("woff"),
+		url("./font/LibreBaskerville-Regular.ttf") format("truetype"),
+		url("./font/LibreBaskerville-Regular.svg") format("svg");
+}
+
+/* === Libre Baskerville - 700 */
+@font-face {
+	font-family: 'Libre Baskerville';
+	font-style: normal;
+	font-weight: 700;
+	src: url("./font/LibreBaskerville-Bold.eot");
+	src: local("Libre Baskerville Bold"),
+		local("LibreBaskerville-Bold"),
+		url("./font/LibreBaskerville-Bold.eot") format("embedded-opentype"),
+		url("./font/LibreBaskerville-Bold.woff2") format("woff2"),
+		url("./font/LibreBaskerville-Bold.woff") format("woff"),
+		url("./font/LibreBaskerville-Bold.ttf") format("truetype"),
+		url("./font/LibreBaskerville-Bold.svg") format("svg");
+}
+
+/* === Merriweather - 300 */
+@font-face {
+	font-family: 'Merriweather';
+	font-style: normal;
+	font-weight: 300;
+	src: url("./font/Merriweather-Light.eot");
+	src: local("Merriweather Light"),
+		local("Merriweather-Light"),
+		url("./font/Merriweather-Light.eot") format("embedded-opentype"),
+		url("./font/Merriweather-Light.woff2") format("woff2"),
+		url("./font/Merriweather-Light.woff") format("woff"),
+		url("./font/Merriweather-Light.ttf") format("truetype"),
+		url("./font/Merriweather-Light.svg") format("svg");
+}
+
+/* === Merriweather - regular */
+@font-face {
+	font-family: 'Merriweather';
+	font-style: normal;
+	font-weight: 400;
+	src: url("./font/Merriweather-Regular.eot");
+	src: local("Merriweather Regular"),
+		local("Merriweather-Regular"),
+		url("./font/Merriweather-Regular.eot") format("embedded-opentype"),
+		url("./font/Merriweather-Regular.woff2") format("woff2"),
+		url("./font/Merriweather-Regular.woff") format("woff"),
+		url("./font/Merriweather-Regular.ttf") format("truetype"),
+		url("./font/Merriweather-Regular.svg") format("svg");
+}
+
+/* === Merriweather - 700 */
+@font-face {
+	font-family: 'Merriweather';
+	font-style: normal;
+	font-weight: 700;
+	src: url("./font/Merriweather-Bold.eot");
+	src: local("Merriweather Bold"),
+		local("Merriweather-Bold"),
+		url("./font/Merriweather-Bold.eot") format("embedded-opentype"),
+		url("./font/Merriweather-Bold.woff2") format("woff2"),
+		url("./font/Merriweather-Bold.woff") format("woff"),
+		url("./font/Merriweather-Bold.ttf") format("truetype"),
+		url("./font/Merriweather-Bold.svg") format("svg");
+}
+
+/* === Merriweather - 900 */
+@font-face {
+	font-family: 'Merriweather';
+	font-style: normal;
+	font-weight: 900;
+	src: url("./font/Merriweather-Black.eot");
+	src: local("Merriweather Black"),
+		local("Merriweather-Black"),
+		url("./font/Merriweather-Black.eot") format("embedded-opentype"),
+		url("./font/Merriweather-Black.woff2") format("woff2"),
+		url("./font/Merriweather-Black.woff") format("woff"),
+		url("./font/Merriweather-Black.ttf") format("truetype"),
+		url("./font/Merriweather-Black.svg") format("svg");
+}
