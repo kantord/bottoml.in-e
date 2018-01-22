@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gh-pages -d dist",
-    "build": "webpack"
+    "build": "webpack",
+    "build:watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -20,8 +21,7 @@
   "homepage": "https://github.com/kantord/bottoml.in-e#readme",
   "dependencies": {
     "dashboard": "github:kantord/dashboard",
-    "file-loader": "^1.1.6",
-    "navigo": "^7.0.0"
+    "file-loader": "^1.1.6"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
