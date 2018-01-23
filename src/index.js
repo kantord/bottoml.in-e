@@ -1,5 +1,4 @@
 import dashboard from 'dashboard'
-import '../dist/fonts.css'
 import * as d3 from 'd3'
 
 const render_dashboard = (data) =>
