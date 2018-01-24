@@ -1,5 +1,6 @@
 const path = require('path');
 const GoogleFontsPlugin = require("google-fonts-webpack-plugin")
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 module.exports = {
   entry: './src/index.js',
@@ -16,6 +17,7 @@ module.exports = {
     contentBase: './dist'
   },
   plugins: [
+    new UglifyJsPlugin(),
     new GoogleFontsPlugin({
       fonts: [
         { family: "Libre Baskerville", variants: ["400", "400i", "700"] },

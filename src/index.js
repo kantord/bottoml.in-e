@@ -1,4 +1,4 @@
-import dashboard from 'dashboard'
+import dashboard from 'just-dashboard'
 import * as d3 from 'd3'
 
 const render_dashboard = (data) =>
