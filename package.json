@@ -9,6 +9,7 @@
     "build": "webpack",
     "build:watch": "webpack --watch",
     "analyze": "webpack --profile --json > stats.json",
+    "manual-test": "webpack-dev-server './src/index.js' --hot --inline --output-filename 'bundle.js'",
     "update": "npm install --save-dev kantord/dashboard && npm run build && npm run deploy"
   },
   "repository": {
@@ -42,6 +43,7 @@
     "style-loader": "^0.19.1",
     "stylish": "^1.0.0",
     "uglifyjs-webpack-plugin": "^1.1.6",
-    "webpack": "^3.10.0"
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
   }
 }
