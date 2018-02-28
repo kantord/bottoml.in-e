@@ -10,7 +10,7 @@
     "build:watch": "webpack --watch",
     "analyze": "webpack --profile --json > stats.json",
     "manual-test": "webpack-dev-server './src/index.js' --hot --inline --output-filename 'bundle.js'",
-    "update": "npm install --save kantord/just-dashboard && npm run build && npm run deploy"
+    "update": "npm update kantord/just-dashboard && npm run build && npm run deploy"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
   "homepage": "https://github.com/kantord/bottoml.in-e#readme",
   "dependencies": {
     "file-loader": "^1.1.7",
-    "just-dashboard": "github:kantord/just-dashboard"
+    "just-dashboard": "^0.4.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
