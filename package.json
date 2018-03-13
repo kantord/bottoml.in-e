@@ -10,7 +10,7 @@
     "build:watch": "webpack --watch",
     "analyze": "webpack --profile --json > stats.json",
     "manual-test": "webpack-dev-server './src/index.js' --hot --inline --output-filename 'bundle.js'",
-    "update": "npm update kantord/just-dashboard && npm run build && npm run deploy"
+    "update": "npm install just-dashboard@latest && npm run build && npm run deploy"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,7 @@
   "dependencies": {
     "d3": "4.10.0",
     "file-loader": "^1.1.10",
-    "just-dashboard": "^0.4.0"
+    "just-dashboard": "^0.7.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
