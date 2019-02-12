@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/kantord/bottoml.in-e#readme",
   "dependencies": {
-    "d3": "4.10.0",
+    "d3": "5.9.1",
     "file-loader": "^1.1.10",
     "just-dashboard": "^0.7.0"
   },
