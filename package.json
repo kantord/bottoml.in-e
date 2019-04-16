@@ -44,6 +44,6 @@
     "stylish": "^1.0.0",
     "uglifyjs-webpack-plugin": "^1.2.2",
     "webpack": "^3.11.0",
-    "webpack-dev-server": "^2.11.2"
+    "webpack-dev-server": "^3.1.11"
   }
 }
