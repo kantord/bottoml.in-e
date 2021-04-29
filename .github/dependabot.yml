@@ -1,0 +1,15 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "02:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: d3
+    versions:
+    - 6.5.0
+    - 6.6.0
+    - 6.6.1
+    - 6.6.2
